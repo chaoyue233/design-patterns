@@ -16,6 +16,10 @@ public class CurrentConditionsDisplay implements Observer, DisplayElement {
         this.weatherData.registerObserver(this);
     }
 
+    public Subject getWeatherData() {
+        return weatherData;
+    }
+
     @Override
     public void display() {
         System.out.println(this.toString());
