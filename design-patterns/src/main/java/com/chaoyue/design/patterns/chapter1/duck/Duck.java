@@ -1,7 +1,10 @@
-package com.chaoyue.design.patterns.chapter1;
+package com.chaoyue.design.patterns.chapter1.duck;
+
+import com.chaoyue.design.patterns.chapter1.behavior.fly.FlyBehavior;
+import com.chaoyue.design.patterns.chapter1.behavior.quack.QuackBehavior;
 
 public abstract class Duck {
-    public Duck() {
+    Duck() {
     }
 
     public Duck(FlyBehavior flyBehavior, QuackBehavior quackBehavior) {
