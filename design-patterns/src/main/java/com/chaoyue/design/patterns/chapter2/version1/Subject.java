@@ -1,4 +1,4 @@
-package com.chaoyue.design.patterns.chapter2;
+package com.chaoyue.design.patterns.chapter2.version1;
 
 /**
  * 作为主题 基础的三个方法分别为（所有观察者模式都需要的）

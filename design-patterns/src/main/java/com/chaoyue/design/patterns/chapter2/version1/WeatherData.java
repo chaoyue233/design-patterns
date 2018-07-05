@@ -1,4 +1,4 @@
-package com.chaoyue.design.patterns.chapter2;
+package com.chaoyue.design.patterns.chapter2.version1;
 
 import java.util.ArrayList;
 import java.util.List;
