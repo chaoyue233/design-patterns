@@ -1,9 +1,9 @@
-package com.chaoyue.design.patterns.chapter4.factoryMethod;
+package com.chaoyue.design.patterns.chapter4.abstractFactory;
 
 import com.chaoyue.design.patterns.chapter4.pizza.Pizza;
 
 /**
- * 工厂方法
+ * 抽象工厂
  */
 public abstract class PizzaStore {
 
