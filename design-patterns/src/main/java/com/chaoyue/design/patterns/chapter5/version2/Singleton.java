@@ -12,8 +12,8 @@ public class Singleton {
     }
 
     // 在入口处使用线程锁来控制并发导致的问题
-    public static synchronized Singleton getInstance(){
-        if(uniqueInstance==null){
+    public static synchronized Singleton getInstance() {
+        if (uniqueInstance == null) {
             uniqueInstance = new Singleton();
         }
         return uniqueInstance;

@@ -15,8 +15,8 @@ public class Singleton {
     }
 
     // 提供统一的入口创建类
-    public static Singleton getInstance(){
-        if(uniqueInstance==null){
+    public static Singleton getInstance() {
+        if (uniqueInstance == null) {
             uniqueInstance = new Singleton();
         }
         return uniqueInstance;

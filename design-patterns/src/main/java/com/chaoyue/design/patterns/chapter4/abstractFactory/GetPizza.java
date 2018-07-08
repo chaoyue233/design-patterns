@@ -8,7 +8,7 @@ import com.chaoyue.design.patterns.chapter4.pizza.Pizza;
  * demo 说明
  * PizzaIngredientFactory 就是使用了抽象工厂模式，传入抽象工厂给对应的Pizza子类，子类不关心具体工厂实现类，只需要调用工厂的创建方法
  * 而整体的pizzaStore使用的工厂方法模式（参考factoryMethod 中的说明）
- *
+ * <p>
  * 抽象工厂与工厂方法的区别
  * 抽象工厂使用组合（NYPizzaStore 中包含 PizzaIngredientFactory ）工厂方法使用继承（NYPizzaStore 继承 PizzaStore）
  */
