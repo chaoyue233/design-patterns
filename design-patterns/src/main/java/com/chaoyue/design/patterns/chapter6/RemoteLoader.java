@@ -50,8 +50,8 @@ public class RemoteLoader {
         CeilingFanHighCommand ceilingFanHighCommand = new CeilingFanHighCommand(ceilingFan);
         CeilingFanOffCommand ceilingFanOffCommand = new CeilingFanOffCommand(ceilingFan);
 
-        remoteControl.setCommand(4,ceilingFanMediumCommand,ceilingFanOffCommand);
-        remoteControl.setCommand(5,ceilingFanHighCommand,ceilingFanOffCommand);
+        remoteControl.setCommand(4, ceilingFanMediumCommand, ceilingFanOffCommand);
+        remoteControl.setCommand(5, ceilingFanHighCommand, ceilingFanOffCommand);
 
         remoteControl.onButtonWasPushed(4);
         remoteControl.offButtonWasPushed(4);
@@ -62,13 +62,13 @@ public class RemoteLoader {
         remoteControl.undoButtonWasPushed();
         // 测试宏命令操作
         System.out.println("---- let's test macro -----");
-        Command[] allOn = {livingRoomLightOn,kitchenLightOn,stereoOnWithCD,ceilingFanHighCommand};
-        Command[] allOff = {livingRoomLightOff,kitchenLightOff,stereoOff,ceilingFanOffCommand};
+        Command[] allOn = {livingRoomLightOn, kitchenLightOn, stereoOnWithCD, ceilingFanHighCommand};
+        Command[] allOff = {livingRoomLightOff, kitchenLightOff, stereoOff, ceilingFanOffCommand};
 
         MacroCommand macroOn = new MacroCommand(allOn);
         MacroCommand macroOff = new MacroCommand(allOff);
 
-        remoteControl.setCommand(6,macroOn,macroOff);
+        remoteControl.setCommand(6, macroOn, macroOff);
         remoteControl.onButtonWasPushed(6);
         remoteControl.offButtonWasPushed(6);
         remoteControl.undoButtonWasPushed();

@@ -12,14 +12,14 @@ public class MacroCommand implements Command {
 
     @Override
     public void execute() {
-        for(Command command :commands){
+        for (Command command : commands) {
             command.execute();
         }
     }
 
     @Override
     public void undo() {
-        for(Command command :commands){
+        for (Command command : commands) {
             command.undo();
         }
     }

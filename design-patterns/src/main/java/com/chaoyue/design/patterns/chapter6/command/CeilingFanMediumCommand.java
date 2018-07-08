@@ -2,7 +2,7 @@ package com.chaoyue.design.patterns.chapter6.command;
 
 import com.chaoyue.design.patterns.chapter6.furniture.CeilingFan;
 
-public class CeilingFanMediumCommand implements Command{
+public class CeilingFanMediumCommand implements Command {
     private CeilingFan ceilingFan;
     // 为撤销命令准备对象记录撤销前的状态记录
     private int prevSpeed;

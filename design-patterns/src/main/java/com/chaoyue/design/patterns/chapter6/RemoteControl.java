@@ -46,7 +46,7 @@ public class RemoteControl {
     }
 
     //UNDO 按钮按下时，执行设置的UNDO按钮方法
-    void undoButtonWasPushed(){
+    void undoButtonWasPushed() {
         undoCommand.undo();
     }
 
