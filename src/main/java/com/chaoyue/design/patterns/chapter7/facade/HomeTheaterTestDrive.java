@@ -3,7 +3,7 @@ package com.chaoyue.design.patterns.chapter7.facade;
 import com.chaoyue.design.patterns.chapter7.facade.equipment.*;
 
 /**
- * 外观模式
+ * 外观模式 Facade Pattern
  * 提供了一个统一的接口，来访问子系统中的一群接口，外观定义了一个高层接口，让子系统更容易使用
  * demo 说明
  * HomeTheaterFacade 就是equipment包下所有子类接口的一个统一外观 可以理解成一组宏命令

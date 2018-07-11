@@ -1,7 +1,7 @@
 package com.chaoyue.design.patterns.chapter7.adapter;
 
 /**
- * 适配器模式
+ * 适配器模式 Adapter Pattern
  * 将一个类的接口，转换成客户期望的另一个接口。适配器让原本不兼容的类可以合作无间
  * demo说明
  * TurkeyAdapter 适配器接收 Turkey 类型对象 并将其处理后转换成 Duck 对象

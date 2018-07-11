@@ -3,7 +3,7 @@ package com.chaoyue.design.patterns.chapter4.factoryMethod;
 import com.chaoyue.design.patterns.chapter4.pizza.Pizza;
 
 /**
- * 工厂方法模式
+ * 工厂方法模式 Factory Method Pattern
  * 定义一个创建对象的接口 由子类决定要实例化的类是哪一个
  * 工厂方法让类把实例化推迟到子类
  * demo 说明

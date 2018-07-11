@@ -4,7 +4,7 @@ import com.chaoyue.design.patterns.chapter6.command.LightOnCommand;
 import com.chaoyue.design.patterns.chapter6.furniture.Light;
 
 /**
- * 命令模式
+ * 命令模式 Command Pattern
  * 将 请求 封装成对象 以便使用不同的请求、队列或者日志来参数化其他对象
  * 命令模式也支持可以撤销的操作
  * demo 说明

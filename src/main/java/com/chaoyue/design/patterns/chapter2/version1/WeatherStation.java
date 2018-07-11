@@ -1,7 +1,7 @@
 package com.chaoyue.design.patterns.chapter2.version1;
 
 /**
- * 观察者模式（version1 手动实现）
+ * 观察者模式 Observer Pattern（version1 手动实现）
  * 定义了对象之间的一对多依赖（1表示主题 多表示观察者）这样一来，当一个对象改变状态时，所有的依赖者都会收到通知并自动更新
  * <p>
  * demo 说明
