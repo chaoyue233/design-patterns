@@ -9,9 +9,10 @@ abstract class CaffeineBeverage {
         boilWater();
         brew();
         pourInCup();
-        addCondiments();
-        // 预留的自定义扩展方法 模板方法中什么也不做 子类可以选择性覆盖
-        hook();
+        // 给子类微调主流程的机会
+        if (customerWantsCondiments()) {
+            addCondiments();
+        }
     }
 
     // 保护重要的方法 申明为private
@@ -27,6 +28,8 @@ abstract class CaffeineBeverage {
 
     abstract void addCondiments();
 
-    void hook() {
+    // 这就是一个钩子，子类可以通过覆盖这个方法来微调主流程逻辑
+    boolean customerWantsCondiments() {
+        return true;
     }
 }
