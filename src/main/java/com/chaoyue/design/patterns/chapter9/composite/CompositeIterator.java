@@ -22,6 +22,7 @@ public class CompositeIterator implements Iterator {
         } else {
             Iterator iterator = stack.peek();
             if (!iterator.hasNext()) {
+                //如果当前迭代器已经没有元素了 则算作无效的迭代器，弹出取下一个
                 stack.pop();
                 return hasNext();
             } else {
@@ -36,7 +37,7 @@ public class CompositeIterator implements Iterator {
             Iterator iterator = stack.peek();
             MenuComponent menuComponent = (MenuComponent) iterator.next();
             if (menuComponent instanceof Menu) {
-                stack.push(((Menu) menuComponent).createIterator());
+                stack.push(menuComponent.createIterator());
             }
             return menuComponent;
         } else {

@@ -41,15 +41,6 @@ public class MenuItem extends MenuComponent {
         System.out.println(" --" + getDescription());
     }
 
-    @Override
-    public String toString() {
-        return "MenuItem{" +
-                "name='" + name + '\'' +
-                ", description='" + description + '\'' +
-                ", vegetarian=" + vegetarian +
-                ", price=" + price +
-                '}';
-    }
 
     @Override
     public Iterator createIterator() {

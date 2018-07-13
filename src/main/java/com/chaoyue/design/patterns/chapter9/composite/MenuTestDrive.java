@@ -25,12 +25,13 @@ public class MenuTestDrive {
 
         // 开始加入具体订单项
         dinerMenu.add(new MenuItem("Pasta", "Spaghetti with Marinara Sauce, and a slice of sourdough bread", true, 3.89));
+        dinerMenu.add(new MenuItem("HotDog", "HotDog!!!!!", false, 1.2));
         // 在一个菜单中加入另一个菜单
         dinerMenu.add(dessertMenu);
         dessertMenu.add(new MenuItem("Apple Pie", "Apple pie with a flakey crust, topped with vanilla ice cream", true, 1.59));
 
         Waitress waitress = new Waitress(allMenus);
-        waitress.printMenu();
+        //waitress.printMenu();
 
         waitress.printVegetarianMenu();
 

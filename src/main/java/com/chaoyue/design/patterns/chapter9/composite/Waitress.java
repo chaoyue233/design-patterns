@@ -3,7 +3,7 @@ package com.chaoyue.design.patterns.chapter9.composite;
 import java.util.Iterator;
 
 public class Waitress {
-    MenuComponent allMenus;
+    private MenuComponent allMenus;
 
     public Waitress(MenuComponent allMenus) {
         this.allMenus = allMenus;
@@ -18,8 +18,11 @@ public class Waitress {
         System.out.println("\n VEGETARIAN MENU \n ---------");
         while (iterator.hasNext()) {
             MenuComponent menuComponent = (MenuComponent) iterator.next();
-            if (menuComponent.isVegetarian()) {
-                menuComponent.print();
+            try {
+                if (menuComponent.isVegetarian()) {
+                    menuComponent.print();
+                }
+            } catch (UnsupportedOperationException ignored) {
             }
         }
     }
