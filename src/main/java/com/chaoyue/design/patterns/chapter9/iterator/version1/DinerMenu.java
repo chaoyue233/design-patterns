@@ -1,4 +1,4 @@
-package com.chaoyue.design.patterns.chapter9.version1;
+package com.chaoyue.design.patterns.chapter9.iterator.version1;
 
 public class DinerMenu {
     static final int MAX_ITEMS = 6;

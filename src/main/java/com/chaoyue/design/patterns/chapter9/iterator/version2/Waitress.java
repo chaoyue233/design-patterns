@@ -1,8 +1,11 @@
-package com.chaoyue.design.patterns.chapter9.version1;
+package com.chaoyue.design.patterns.chapter9.iterator.version2;
 
+import java.util.Iterator;
+
+@SuppressWarnings("Duplicates")
 public class Waitress {
-    PancakeHouseMenu pancakeHouseMenu;
-    DinerMenu dinerMenu;
+    Menu pancakeHouseMenu;
+    Menu dinerMenu;
 
     public Waitress(PancakeHouseMenu pancakeHouseMenu, DinerMenu dinerMenu) {
         this.pancakeHouseMenu = pancakeHouseMenu;

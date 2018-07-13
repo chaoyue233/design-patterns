@@ -1,4 +1,4 @@
-package com.chaoyue.design.patterns.chapter9.version1;
+package com.chaoyue.design.patterns.chapter9.iterator.version1;
 
 import java.util.List;
 
