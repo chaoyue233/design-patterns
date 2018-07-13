@@ -1,6 +1,9 @@
 package com.chaoyue.design.patterns.chapter3.IODemo;
 
-import java.io.*;
+import java.io.BufferedInputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStream;
 
 /**
  * 测试LowerCaseInputStream 能否像其他 FilterInputStream 的装饰类一样工作

@@ -1,4 +1,4 @@
-package com.chaoyue.design.patterns.chapter8;
+package com.chaoyue.design.patterns.chapter8.version1;
 
 /**
  * 模板方法模式 Template Method Pattern

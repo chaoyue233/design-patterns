@@ -1,6 +1,6 @@
 package com.chaoyue.design.patterns.chapter4.factoryMethod;
 
-import com.chaoyue.design.patterns.chapter4.pizza.*;
+import com.chaoyue.design.patterns.chapter4.pizza.Pizza;
 import com.chaoyue.design.patterns.chapter4.pizza.newyork.NYStyleCheesePizza;
 import com.chaoyue.design.patterns.chapter4.pizza.newyork.NYStyleClamPizza;
 import com.chaoyue.design.patterns.chapter4.pizza.newyork.NYStylePepperoniPizza;

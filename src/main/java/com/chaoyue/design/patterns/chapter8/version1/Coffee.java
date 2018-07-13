@@ -1,4 +1,4 @@
-package com.chaoyue.design.patterns.chapter8;
+package com.chaoyue.design.patterns.chapter8.version1;
 
 class Coffee extends CaffeineBeverage {
 

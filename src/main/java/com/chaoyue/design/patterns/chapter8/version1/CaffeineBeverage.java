@@ -1,4 +1,4 @@
-package com.chaoyue.design.patterns.chapter8;
+package com.chaoyue.design.patterns.chapter8.version1;
 
 /**
  * 抽象公共的算法为模板方法
