@@ -7,3 +7,4 @@
 + _chapter6_ **命令模式 Command Pattern**
 + _chapter7_ **适配器模式 Adapter Pattern&外观模式 Facade Pattern**
 + _chapter8_ **模板方法模式 Template Method Pattern**
++ _chapter9_ **迭代器模式 Iterator Pattern&组合模式 Composite Pattern**
