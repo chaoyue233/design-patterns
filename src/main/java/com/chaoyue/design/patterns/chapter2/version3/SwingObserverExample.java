@@ -25,6 +25,7 @@ public class SwingObserverExample {
         Container contentPane = jFrame.getContentPane();
         contentPane.add(button);
         jFrame.pack();
+        jFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         jFrame.setVisible(true);
     }
 }
